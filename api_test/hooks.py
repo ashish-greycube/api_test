@@ -175,3 +175,11 @@ user_data_fields = [
 # 	"api_test.auth.validate"
 # ]
 
+fixtures = [
+      {
+        "dt": "Workspace", 
+        "filters": [["name", "in", ["Insurance"]]]
+      },
+     
+
+]
